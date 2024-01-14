@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>User Detail</title>
+</head>
+<body>
+    <h1>User Detail</h1>
+    <p>ID: {{ user[0] }}</p>
+    <p>Name: {{ user[1] }}</p>
+    <p>Email: {{ user[2] }}</p>
+    <p>Password: {{ user[3] }}</p>
+    <p>Role: {{ user[4] }}</p>
+</body>
+</html>
